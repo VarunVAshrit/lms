@@ -16,6 +16,7 @@ const Signup = () => {
 
     const handleRegister = () => {
         // Check if username (email) already exists
+        //checking branches
         if (!username || !password || !approverEmail) {
             toast.error('All fields are mandatory to fill');
             return;
