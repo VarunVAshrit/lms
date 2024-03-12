@@ -1,0 +1,13 @@
+{
+    "users": [
+      {
+        "username": "varun@outlook.com",
+        "password": "Varun@123"
+      },
+      {
+        "username": "tony@outlook.com",
+        "password": "Tony@123"
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+/* Login.css */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Set minimum height to 100 viewport height */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.form {
+    width: 100%;
+    max-width: 400px; /* Limit form width */
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
