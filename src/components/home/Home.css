@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,230,230,0.44038865546218486) 30%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-size: cover;
     background-position: center;
     color: rgb(0, 0, 0); 
@@ -17,21 +17,7 @@
     margin-bottom: 40px; 
 }
 
-.login-button {
-    animation: pulse 2s infinite;
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    border: none;
-    padding: 15px 30px; 
-    font-size: 16px; 
-    margin-right: 10px;  /* Add margin bottom to create gap */
-}
-
-.login-button:hover {
-    background-color: rgba(187, 255, 173, 0.9); 
-    color: black;
-}
-
+.login-button,
 .signup-button {
     animation: pulse 2s infinite;
     color: white; 
@@ -39,10 +25,18 @@
     border: none;
     padding: 15px 30px; 
     font-size: 16px; 
-    margin-left: 10px;
 }
 
+.login-button:hover,
 .signup-button:hover {
     background-color: rgba(187, 255, 173, 0.9); 
     color: black;
+}
+
+.login-button {
+    margin-right: 10px;  /* Add margin right to create gap */
+}
+
+.signup-button {
+    margin-left: 10px;  /* Add margin left to create gap */
 }

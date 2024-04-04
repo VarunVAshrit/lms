@@ -1,13 +1,51 @@
 {
-    "users": [
-      {
-        "username": "varun@outlook.com",
-        "password": "Varun@123"
-      },
-      {
-        "username": "tony@outlook.com",
-        "password": "Tony@123"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "username": "varun@outlook.com",
+      "password": "Varun@123",
+      "isAdmin": true,
+      "leaveApplications": [
+        {
+          "employee": "Gokul Krishnan",
+          "fromDate": "2024-03-10",
+          "toDate": "2024-03-15"
+        },
+        {
+          "employee": "Xavier David",
+          "fromDate": "2024-06-12",
+          "toDate": "2024-06-11"
+        },
+        {
+          "employee": "Karthik Sasikumar",
+          "fromDate": "2024-04-14",
+          "toDate": "2024-04-25"
+        },
+        {
+          "employee": "Devipadmapriya Selvaraj",
+          "fromDate": "2024-03-16",
+          "toDate": "2024-03-20"
+        }
+      ]
+    },
+    {
+      "username": "tony@outlook.com",
+      "password": "Tony@123",
+      "isAdmin": false,
+      "leaveBalance": 20, 
+      "appliedLeaves": [
+        {
+          "fromDate": "2024-03-10",
+          "toDate": "2024-03-15"
+        },
+        {
+          "fromDate": "2024-03-19",
+          "toDate": "2024-03-20"
+        },
+        {
+          "fromDate": "2024-05-12",
+          "toDate": "2024-05-14"
+        }
+      ]
+    }
+  ]
+}
